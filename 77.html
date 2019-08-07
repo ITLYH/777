@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    
+
+    <script>
+        try {
+            if ('Yi Bao ❤ Me') {
+                throw decodeURI('I%20%E2%9D%A4%20Yi%20Bao%20Forever...');
+            } else {
+                throw decodeURI('%E6%98%A5%E9%A3%8E%E5%8D%81%E9%87%8C%EF%BC%8C%E4%B8%8D%E5%8F%8A%E7%9B%B8%E9%81%87%E6%9C%89%E4%BD%A0%EF%BC%9B%E6%99%B4%E7%A9%BA%E4%B8%87%E9%87%8C%EF%BC%8C%E4%B8%8D%E5%8F%8A%E5%BF%83%E4%B8%AD%E6%9C%89%E4%BD%A0%E3%80%82');
+            }
+        } catch (err) {
+            confirm(err);
+        } finally {
+            const Y = "<img style='width: 100%; height: 100 % ' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565156711828&di=93b953d761a0d59bb8aef0beb04d21b9&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201808%2F20%2F20180820134915_44BGw.jpeg' alt=''>";
+            let   L = document.querySelector('body');
+            L.style.margin = "0px";
+            L.innerHTML = Y;
+        }
+    </script>
+</body>
+
+</html>
